@@ -5,7 +5,6 @@
     padding: 0%;
     box-sizing: border-box;
 }
-
 body{
     font-family: 'DM Sans';
     background-color: rgb(245, 242, 242);
@@ -13,7 +12,6 @@ body{
     justify-content: center;
     align-items: center;   
 }
-
 .card{
     height: 100vh;
     margin: auto;
@@ -22,7 +20,6 @@ body{
     gap: 30px;
     margin: 50px;
 }
-
 .card--smAi{
     background-color: hsl(256, 67%, 59%);
     grid-column: 2/4;
@@ -35,38 +32,31 @@ body{
     justify-content: center;
     padding-top: 50px;
 }
-
 .card--smAi h2, p{
     font-size: 90px;
     font-weight: 500;
     color:hsl(0, 0%, 100%);
     line-height: 100px;
 }
-
 .five--star{
     color: hsl(0, 0%, 100%);
     font-size: 30px;
     padding-bottom: 50px;
 }
-
 strong{
     font-size: 100px;
     font-weight: 400;
     color: hsl(39, 100%, 71%);
 }
-
 .stars{
     width: 280px;
     padding-top: 20px;
 }
-
-
 .card--createWrite{
     grid-column: 1;
     grid-row: 1/5;
     width: 470px;
 }
-
 .card--create{
     background-color: hsl(31, 66%, 93%);
     border-radius: 15px;
@@ -76,7 +66,6 @@ strong{
     justify-content: center;
     margin-bottom: 20px;
 }
-
 .card--create p{
     line-height: 70px;
     color: hsl(0, 0%, 7%);
@@ -84,18 +73,15 @@ strong{
     font-weight: 500;
     font-size: 60px;
 }
-
 #quick{
     font-size: 60px;
     font-weight: 500;
     color: hsl(256, 67%, 59%);
 }
-
 .createPost{
     width: 350px;
     padding-bottom: 50px;
 }
-
 .card--write{
     background-color: hsl(39, 100%, 71%);
     border-radius: 15px;
@@ -104,7 +90,6 @@ strong{
     align-items: center;
     justify-content: center;
 }
-
 .card--write p{
     font-size: 70px;
     line-height: 60px;
@@ -112,12 +97,10 @@ strong{
     padding: 45px 55px 65px;
     font-weight: 500;
 }
-
 .card--write img{
     width: 350px;
     padding-bottom: 40px;
 }
-
 .card--socialM{
     background-color: hsl(254, 88%, 90%);
     grid-column: 4;
@@ -129,7 +112,6 @@ strong{
     flex-direction: column;
     overflow: hidden;
 }
-
 .card--socialM p{
     color: hsl(0, 0%, 7%);
     font-size: 43px;
@@ -138,19 +120,16 @@ strong{
     margin: 50px 70px 30px;
     line-height: 40px;
 }
-
 #p--sm{
     font-weight: 500;
     font-size: 24px;
     margin: 30px 70px 15px;
     line-height: 33px;
 }
-
 .card--socialM img{
     margin-left: 70px;
     width: 520px;
 }
-
 .card--manage-maintain{
     grid-column: 2/4;
     grid-row: 2/3;
@@ -159,14 +138,12 @@ strong{
     gap: 30px;
     height: 420px;
 }
-
 .card--manage{
     width: 50%;
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
     overflow: hidden;
 }
-
 .card--manage img{
     width: 630px;
     padding: 25px;
@@ -193,12 +170,10 @@ strong{
     line-height: 50px;
     margin: 40px 50px 20px;
 }
-
 .card--maintain img{
     width: 350px;
     align-self: center;
 }
-
 .card--fastAudience{
     grid-column: 2;
     grid-row: 3;
@@ -210,7 +185,6 @@ strong{
     border-radius: 15px;
     padding: 50px 40px 30px;
 }
-
 .card--fastAudience p{
     color:hsl(0, 0%, 7%) ;
     line-height: 60px;
@@ -219,11 +193,9 @@ strong{
     font-size: 30px;
     margin: 25px;
 }
-
 .card--fastAudience img{
     width: 340px;
 }
-
 .card--followers{
     grid-column: 3/5;
     grid-row: 3;
@@ -235,7 +207,6 @@ strong{
     border-radius: 15px;
     padding: 50px 40px 30px;
 }
-
 .card--followers p{
     font-size: 50px;
     line-height: 50px;
