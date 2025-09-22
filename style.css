@@ -12,14 +12,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.container{
-    height: 100vh;
-    margin: auto;
+    
 }
 
 .card{
+    height: 100vh;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
