@@ -13,8 +13,7 @@ body{
     align-items: center;   
 }
 .card{
-    height: 100vh;
-    margin: 50px auto;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
@@ -29,13 +28,13 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 80px;
 }
 .card--smAi h2, p{
     font-size: 90px;
     font-weight: 500;
     color:hsl(0, 0%, 100%);
-    line-height: 100px;
+    line-height: 80px;
 }
 .five--star{
     color: hsl(0, 0%, 100%);
@@ -55,6 +54,7 @@ strong{
     grid-column: 1;
     grid-row: 1/5;
     width: 470px;
+    height: 1280px;
 }
 .card--create{
     background-color: hsl(31, 66%, 93%);
@@ -64,21 +64,24 @@ strong{
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+    height: 550px;
 }
 .card--create p{
-    line-height: 70px;
+    line-height:50px;
     color: hsl(0, 0%, 7%);
     padding: 50px 55px 25px;
     font-weight: 500;
-    font-size: 60px;
+    font-size: 50px;
 }
 #quick{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 500;
     color: hsl(256, 67%, 59%);
 }
 .createPost{
     width: 350px;
+    align-self: start;
+    padding-left: 55px;
     padding-bottom: 50px;
 }
 .card--write{
@@ -88,13 +91,19 @@ strong{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 705px;
 }
 .card--write p{
     font-size: 70px;
     line-height: 60px;
     color: hsl(0, 0%, 7%);
-    padding: 45px 55px 65px;
+    padding: 45px 55px;
     font-weight: 500;
+}
+
+.card--write img{
+    width: 350px;
+    padding-bottom: 40px;
 }
 
 .card--socialM{
