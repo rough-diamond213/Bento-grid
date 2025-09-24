@@ -358,25 +358,23 @@ strong{
     }
     .card--create{
     width: 50%;
-    padding-left: 25px;
     align-items: start;
-    justify-content: center;
     height: 360px;
     }
     .card--create p{
-    padding-left: 0%;
-    line-height: 25px;
-    font-size: 30px;
+        padding: 25px;
+    line-height: 35px;
+    font-size: 40px;
     font-weight: 500;
     }
     #quick{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 500;
     color: hsl(256, 67%, 59%);
     }
     .createPost{
-    width: 200px;
-    padding-bottom: 50px;
+    width: 250px;
+    padding: 0 25px 50px ;
     }
     .card--write{
     width: 50%;
